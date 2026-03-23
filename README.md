@@ -22,6 +22,10 @@ This project demonstrates modular LLM engineering, efficient memory management (
 * **Google translation:** Translation of all types of analytics ENG/RU.
 * **Rich Export Options:** Generate production-ready `.pdf`, `.docx`, `.txt`, and `.md` files.
 
+<p align="center">
+  <img src="Present.gif" width="800" alt="Llama Analyst Station Demo">
+</p>
+
 ### 🏗️ Project Architecture
 
 The repository is structured to support both local modular deployment and cloud-based execution (Kaggle).
