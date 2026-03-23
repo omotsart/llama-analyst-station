@@ -1,0 +1,34 @@
+# Secrets and API keys (CRITICAL)
+.env
+.env.local
+.env.*
+*.pem
+
+# Virtual environments (Heavy, do not commit)
+venv/
+env/
+.venv/
+Scripts/
+
+# Local output and results (Do not push generated reports)
+outputs/
+result_*.txt
+analysis_*.pdf
+analysis_*.docx
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook cache
+.ipynb_checkpoints/
+
+# Hugging Face and Gradio cache (if models are downloaded locally)
+.huggingface/
+.gradio/
+
+# OS generated files
+.DS_Store
+Thumbs.db
